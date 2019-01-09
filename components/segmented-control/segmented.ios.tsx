@@ -21,7 +21,7 @@ export default class SegmentedControl extends React.Component<
       <WithTheme>
         {(_, theme) => (
           <SegmentedControlIOS
-            tintColor={tintColor||theme.segmented_control_color}
+            tintColor={tintColor || theme.segmented_control_color}
             selectedIndex={selectedIndex}
             {...restProps}
             enabled={!disabled}

@@ -157,7 +157,7 @@ export default class TextAreaItem extends React.Component<
                 multiline={rows! > 1 || autoHeight}
                 numberOfLines={rows}
                 maxLength={maxLength}
-                ref={ref=> this.textAreaRef = ref}
+                ref={ref => this.textAreaRef = ref}
               />
               {error ? (
                 <TouchableWithoutFeedback onPress={onErrorClick}>

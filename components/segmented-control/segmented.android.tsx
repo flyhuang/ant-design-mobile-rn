@@ -110,7 +110,7 @@ export default class SegmentedControl extends React.Component<
             const underlayColor =
               idx === selectedIndex
                 ? tintColor
-                : '#'+setNormalizedColorAlpha(
+                : '#' + setNormalizedColorAlpha(
                     normalizeColor(tintColor),
                     0.3,
                   ).toString(16);
